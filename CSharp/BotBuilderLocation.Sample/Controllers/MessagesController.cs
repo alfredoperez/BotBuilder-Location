@@ -62,7 +62,7 @@
                                      LocationRequiredFields.Region | LocationRequiredFields.Country |
                                      LocationRequiredFields.PostalCode;
 
-                var prompt = "Where should I ship your order?";
+                var prompt = "Where do you want to find a place?";
 
                 var locationDialog = new LocationDialog(apiKey, this.channelId, prompt, options, requiredFields);
 
